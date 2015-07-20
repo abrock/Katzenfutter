@@ -1,0 +1,628 @@
+(env) alexander@toothless:~/rzl/pretix/src$ pip install -r requirements.txt
+Downloading/unpacking Django>=1.8,<1.9 (from -r requirements/production.txt (line 2))
+  Downloading Django-1.8.3-py2.py3-none-any.whl (6.2MB): 6.2MB downloaded
+Downloading/unpacking python-dateutil>=2.4,<2.5 (from -r requirements/production.txt (line 3))
+  Downloading python_dateutil-2.4.2-py2.py3-none-any.whl (188kB): 188kB downloaded
+Downloading/unpacking pytz (from -r requirements/production.txt (line 4))
+  Downloading pytz-2015.4-py2.py3-none-any.whl (475kB): 475kB downloaded
+Downloading/unpacking django-bootstrap3>=6.1,<6.2 (from -r requirements/production.txt (line 5))
+  Downloading django-bootstrap3-6.1.0.tar.gz
+  Running setup.py (path:/tmp/pip-build-q547one9/django-bootstrap3/setup.py) egg_info for package django-bootstrap3
+    
+    warning: no files found matching '*.png' under directory 'bootstrap3'
+    warning: no files found matching '*.gif' under directory 'bootstrap3'
+    warning: no files found matching '*js' under directory 'bootstrap3'
+    warning: no files found matching '*jpg' under directory 'bootstrap3'
+    warning: no files found matching '*jpeg' under directory 'bootstrap3'
+    warning: no files found matching '*svg' under directory 'bootstrap3'
+    warning: no files found matching '*.png' under directory 'demo'
+    warning: no files found matching '*.gif' under directory 'demo'
+    warning: no files found matching '*js' under directory 'demo'
+    warning: no files found matching '*jpg' under directory 'demo'
+    warning: no files found matching '*jpeg' under directory 'demo'
+    warning: no files found matching '*svg' under directory 'demo'
+Obtaining django-formset-js from git+https://github.com/pretix/django-formset-js.git@master#egg=django-formset-js (from -r requirements/production.txt (line 6))
+  Cloning https://github.com/pretix/django-formset-js.git (to master) to ./env/src/django-formset-js
+  Running setup.py (path:/home/alexander/rzl/pretix/src/env/src/django-formset-js/setup.py) egg_info for package django-formset-js
+    
+  Installing extra requirements: 'egg'
+Obtaining CleanerVersion from git+https://github.com/pretix/cleanerversion.git@pretix#egg=CleanerVersion (from -r requirements/production.txt (line 8))
+  Cloning https://github.com/pretix/cleanerversion.git (to pretix) to ./env/src/cleanerversion
+  Running setup.py (path:/home/alexander/rzl/pretix/src/env/src/cleanerversion/setup.py) egg_info for package CleanerVersion
+    
+    warning: no previously-included files matching '*.py[c|o]' found anywhere in distribution
+  Installing extra requirements: 'egg'
+Downloading/unpacking django-compressor>=1.5,<2.0 (from -r requirements/production.txt (line 9))
+  Downloading django_compressor-1.5-py2.py3-none-any.whl (129kB): 129kB downloaded
+Downloading/unpacking reportlab>=3.1.44,<3.2 (from -r requirements/production.txt (line 10))
+  Downloading reportlab-3.1.44.tar.gz (1.9MB): 1.9MB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/reportlab/setup.py) egg_info for package reportlab
+    ################################################
+    #Attempting install of _rl_accel & pyHnj
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel'
+    ################################################
+    ################################################
+    #Attempting install of _renderPM
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM'
+    will use installed libart 2.3.21
+    # installing with freetype version 21
+    ################################################
+    Downloading standard T1 font curves
+    Finished download of standard T1 font curves
+    
+    
+    ########## SUMMARY INFO #########
+    ################################################
+    #Attempting install of _rl_accel & pyHnj
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel'
+    ################################################
+    ################################################
+    #Attempting install of _renderPM
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM'
+    will use installed libart 2.3.21
+    # installing with freetype version 21
+    ################################################
+    Downloading standard T1 font curves
+    Finished download of standard T1 font curves
+Obtaining PyPDF2 from git+https://github.com/pretix/PyPDF2.git@pretix#egg=PyPDF2 (from -r requirements/production.txt (line 11))
+  Cloning https://github.com/pretix/PyPDF2.git (to pretix) to ./env/src/pypdf2
+  Running setup.py (path:/home/alexander/rzl/pretix/src/env/src/pypdf2/setup.py) egg_info for package PyPDF2
+    
+  Installing extra requirements: 'egg'
+Downloading/unpacking BeautifulSoup4 (from -r requirements/production.txt (line 14))
+  Downloading beautifulsoup4-4.4.0-py3-none-any.whl (80kB): 80kB downloaded
+Downloading/unpacking html5lib (from -r requirements/production.txt (line 15))
+  Downloading html5lib-0.999999.tar.gz (889kB): 889kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/html5lib/setup.py) egg_info for package html5lib
+    
+Downloading/unpacking slimit (from -r requirements/production.txt (line 16))
+  Downloading slimit-0.8.1.zip (88kB): 88kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/slimit/setup.py) egg_info for package slimit
+    
+Downloading/unpacking lxml (from -r requirements/production.txt (line 17))
+  Downloading lxml-3.4.4.tar.gz (3.5MB): 3.5MB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/lxml/setup.py) egg_info for package lxml
+    Building lxml version 3.4.4.
+    Building without Cython.
+    Using build configuration of libxslt 1.1.28
+    /usr/lib/python3.4/distutils/dist.py:260: UserWarning: Unknown distribution option: 'bugtrack_url'
+      warnings.warn(msg)
+    
+    warning: no previously-included files found matching '*.py'
+Downloading/unpacking static3==0.6.1 (from -r requirements/production.txt (line 18))
+  Downloading static3-0.6.1.tar.gz
+  Running setup.py (path:/tmp/pip-build-q547one9/static3/setup.py) egg_info for package static3
+    
+Obtaining dj-static from git+https://github.com/pretix/dj-static.git@script-path#egg=dj-static (from -r requirements/production.txt (line 19))
+  Cloning https://github.com/pretix/dj-static.git (to script-path) to ./env/src/dj-static
+  Running setup.py (path:/home/alexander/rzl/pretix/src/env/src/dj-static/setup.py) egg_info for package dj-static
+    
+  Installing extra requirements: 'egg'
+Downloading/unpacking flufl.enum (from -r requirements/py33.txt (line 3))
+  Downloading flufl.enum-4.0.1.tar.gz
+  Running setup.py (path:/tmp/pip-build-q547one9/flufl.enum/setup.py) egg_info for package flufl.enum
+    
+    warning: no previously-included files found matching '.bzrignore'
+    no previously-included directories found matching 'build'
+Downloading/unpacking django-debug-toolbar>=1.3.0,<2.0 (from -r requirements/dev.txt (line 1))
+  Downloading django_debug_toolbar-1.3.2-py2.py3-none-any.whl (206kB): 206kB downloaded
+Downloading/unpacking pyflakes (from -r requirements/testing.txt (line 2))
+  Downloading pyflakes-0.9.2-py2.py3-none-any.whl
+Downloading/unpacking pep8==1.5.7 (from -r requirements/testing.txt (line 3))
+  Downloading pep8-1.5.7-py2.py3-none-any.whl
+Downloading/unpacking pep8-naming (from -r requirements/testing.txt (line 4))
+  Downloading pep8_naming-0.3.3-py2.py3-none-any.whl
+Downloading/unpacking flake8 (from -r requirements/testing.txt (line 5))
+  Downloading flake8-2.4.1-py2.py3-none-any.whl
+Downloading/unpacking coveralls (from -r requirements/testing.txt (line 6))
+  Downloading coveralls-0.5.zip
+  Running setup.py (path:/tmp/pip-build-q547one9/coveralls/setup.py) egg_info for package coveralls
+    
+Downloading/unpacking coverage (from -r requirements/testing.txt (line 7))
+  Downloading coverage-3.7.1.tar.gz (284kB): 284kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/coverage/setup.py) egg_info for package coverage
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+Downloading/unpacking selenium (from -r requirements/testing.txt (line 8))
+  Downloading selenium-2.46.1.tar.gz (2.6MB): 2.6MB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/selenium/setup.py) egg_info for package selenium
+    
+Downloading/unpacking pytest (from -r requirements/testing.txt (line 9))
+  Downloading pytest-2.7.2-py2.py3-none-any.whl (127kB): 127kB downloaded
+Downloading/unpacking pytest-django (from -r requirements/testing.txt (line 10))
+  Downloading pytest_django-2.8.0-py2.py3-none-any.whl
+Downloading/unpacking isort (from -r requirements/testing.txt (line 11))
+  Downloading isort-4.0.0-py2.py3-none-any.whl
+Downloading/unpacking paypalrestsdk>=1.9,<1.10,<2.0 (from -r requirements/paypal.txt (line 1))
+  Downloading paypalrestsdk-1.10.1.tar.gz
+  Running setup.py (path:/tmp/pip-build-q547one9/paypalrestsdk/setup.py) egg_info for package paypalrestsdk
+    
+Downloading/unpacking stripe>=1.22,<1.23 (from -r requirements/stripe.txt (line 1))
+  Downloading stripe-1.22.3.tar.gz (174kB): 174kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/stripe/setup.py) egg_info for package stripe
+    
+Downloading/unpacking chardet>=2.3,<3 (from -r requirements/banktransfer.txt (line 1))
+  Downloading chardet-2.3.0.tar.gz (164kB): 164kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/chardet/setup.py) egg_info for package chardet
+    
+    warning: no files found matching 'COPYING'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.gif' under directory 'docs'
+Downloading/unpacking six>=1.5 (from python-dateutil>=2.4,<2.5->-r requirements/production.txt (line 3))
+  Downloading six-1.9.0-py2.py3-none-any.whl
+Downloading/unpacking django-jquery-js (from django-formset-js->-r requirements/production.txt (line 6))
+  Downloading django-jquery-js-2.1.4.tar.gz (105kB): 105kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/django-jquery-js/setup.py) egg_info for package django-jquery-js
+    
+Downloading/unpacking django-appconf>=0.4 (from django-compressor>=1.5,<2.0->-r requirements/production.txt (line 9))
+  Downloading django_appconf-1.0.1-py2.py3-none-any.whl
+Downloading/unpacking pillow>=2.4.0 (from reportlab>=3.1.44,<3.2->-r requirements/production.txt (line 10))
+  Downloading Pillow-2.9.0.tar.gz (9.3MB): 9.3MB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/pillow/setup.py) egg_info for package pillow
+    
+Requirement already satisfied (use --upgrade to upgrade): pip>=1.4.1 in ./env/lib/python3.4/site-packages (from reportlab>=3.1.44,<3.2->-r requirements/production.txt (line 10))
+Requirement already satisfied (use --upgrade to upgrade): setuptools>=2.2 in ./env/lib/python3.4/site-packages (from reportlab>=3.1.44,<3.2->-r requirements/production.txt (line 10))
+Downloading/unpacking ply>=3.4 (from slimit->-r requirements/production.txt (line 16))
+  Downloading ply-3.6.tar.gz (281kB): 281kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/ply/setup.py) egg_info for package ply
+    
+Downloading/unpacking sqlparse (from django-debug-toolbar>=1.3.0,<2.0->-r requirements/dev.txt (line 1))
+  Downloading sqlparse-0.1.15.tar.gz (57kB): 57kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/sqlparse/setup.py) egg_info for package sqlparse
+    
+Downloading/unpacking mccabe>=0.2.1,<0.4 (from flake8->-r requirements/testing.txt (line 5))
+  Downloading mccabe-0.3.1-py2.py3-none-any.whl
+Downloading/unpacking PyYAML>=3.10 (from coveralls->-r requirements/testing.txt (line 6))
+  Downloading PyYAML-3.11.tar.gz (248kB): 248kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/PyYAML/setup.py) egg_info for package PyYAML
+    
+Downloading/unpacking docopt>=0.6.1 (from coveralls->-r requirements/testing.txt (line 6))
+  Downloading docopt-0.6.2.tar.gz
+  Running setup.py (path:/tmp/pip-build-q547one9/docopt/setup.py) egg_info for package docopt
+    
+Downloading/unpacking requests>=1.0.0 (from coveralls->-r requirements/testing.txt (line 6))
+  Downloading requests-2.7.0-py2.py3-none-any.whl (470kB): 470kB downloaded
+Downloading/unpacking py>=1.4.29 (from pytest->-r requirements/testing.txt (line 9))
+  Downloading py-1.4.30-py2.py3-none-any.whl (81kB): 81kB downloaded
+Downloading/unpacking pyopenssl>=0.15 (from paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading pyOpenSSL-0.15.1-py2.py3-none-any.whl (102kB): 102kB downloaded
+Downloading/unpacking cryptography>=0.7 (from pyopenssl>=0.15->paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading cryptography-0.9.3.tar.gz (303kB): 303kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/cryptography/setup.py) egg_info for package cryptography
+    
+    no previously-included directories found matching 'docs/_build'
+    warning: no previously-included files matching '*' found under directory 'vectors'
+Downloading/unpacking idna (from cryptography>=0.7->pyopenssl>=0.15->paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading idna-2.0-py2.py3-none-any.whl (61kB): 61kB downloaded
+Downloading/unpacking pyasn1 (from cryptography>=0.7->pyopenssl>=0.15->paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading pyasn1-0.1.8.tar.gz (75kB): 75kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/pyasn1/setup.py) egg_info for package pyasn1
+    
+Downloading/unpacking cffi>=0.8 (from cryptography>=0.7->pyopenssl>=0.15->paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading cffi-1.1.2.tar.gz (326kB): 326kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/cffi/setup.py) egg_info for package cffi
+    
+Downloading/unpacking pycparser (from cffi>=0.8->cryptography>=0.7->pyopenssl>=0.15->paypalrestsdk>=1.9,<1.10,<2.0->-r requirements/paypal.txt (line 1))
+  Downloading pycparser-2.14.tar.gz (223kB): 223kB downloaded
+  Running setup.py (path:/tmp/pip-build-q547one9/pycparser/setup.py) egg_info for package pycparser
+    
+    warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+    warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+    warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+    warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+Installing collected packages: Django, python-dateutil, pytz, django-bootstrap3, django-formset-js, CleanerVersion, django-compressor, reportlab, PyPDF2, BeautifulSoup4, html5lib, slimit, lxml, static3, dj-static, flufl.enum, django-debug-toolbar, pyflakes, pep8, pep8-naming, flake8, coveralls, coverage, selenium, pytest, pytest-django, isort, paypalrestsdk, stripe, chardet, six, django-jquery-js, django-appconf, pillow, ply, sqlparse, mccabe, PyYAML, docopt, requests, py, pyopenssl, cryptography, idna, pyasn1, cffi, pycparser
+  Running setup.py install for django-bootstrap3
+    
+    warning: no files found matching '*.png' under directory 'bootstrap3'
+    warning: no files found matching '*.gif' under directory 'bootstrap3'
+    warning: no files found matching '*js' under directory 'bootstrap3'
+    warning: no files found matching '*jpg' under directory 'bootstrap3'
+    warning: no files found matching '*jpeg' under directory 'bootstrap3'
+    warning: no files found matching '*svg' under directory 'bootstrap3'
+    warning: no files found matching '*.png' under directory 'demo'
+    warning: no files found matching '*.gif' under directory 'demo'
+    warning: no files found matching '*js' under directory 'demo'
+    warning: no files found matching '*jpg' under directory 'demo'
+    warning: no files found matching '*jpeg' under directory 'demo'
+    warning: no files found matching '*svg' under directory 'demo'
+  Running setup.py develop for django-formset-js
+    
+    Creating /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django-formset-js.egg-link (link to .)
+    Adding django-formset-js 0.4.0 to easy-install.pth file
+    
+    Installed /home/alexander/rzl/pretix/src/env/src/django-formset-js
+  Running setup.py develop for CleanerVersion
+    
+    warning: no previously-included files matching '*.py[c|o]' found anywhere in distribution
+    Creating /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/CleanerVersion.egg-link (link to .)
+    Adding CleanerVersion 1.5.2 to easy-install.pth file
+    
+    Installed /home/alexander/rzl/pretix/src/env/src/cleanerversion
+  Running setup.py install for reportlab
+    ################################################
+    #Attempting install of _rl_accel & pyHnj
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel'
+    ################################################
+    ################################################
+    #Attempting install of _renderPM
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM'
+    will use installed libart 2.3.21
+    # installing with freetype version 21
+    ################################################
+    Standard T1 font curves already downloaded
+    building 'reportlab.lib._rl_accel' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.o
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c: In function ‘_a85_encode’:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c:122:10: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       inData = PyBytes_AsString(_o1);
+              ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c:133:9: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+      inData = PyBytes_AsString(inObj);
+             ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c: In function ‘_a85_decode’:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c:222:10: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       inData = PyBytes_AsString(_o1);
+              ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.c:233:9: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+      inData = PyBytes_AsString(inObj);
+             ^
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel/_rl_accel.o -o build/lib.linux-x86_64-3.4/reportlab/lib/_rl_accel.cpython-34m.so
+    building 'reportlab.graphics._renderPM' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DRENDERPM_FT -DLIBART_COMPILATION -DLIBART_VERSION="2.3.21" -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM -I/usr/include/libart-2.0/libart_lgpl -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1 -I/usr/include/freetype2 -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.o
+    In file included from /usr/include/python3.4m/Python.h:85:0,
+                     from /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:1:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c: In function ‘_get_gstatePath’:
+    /usr/include/python3.4m/tupleobject.h:62:73: warning: ‘e’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     #define PyTuple_SET_ITEM(op, i, v) (((PyTupleObject *)(op))->ob_item[i] = v)
+                                                                             ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:974:12: note: ‘e’ was declared here
+      PyObject *e;
+                ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c: In function ‘gstate_drawString’:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:827:15: warning: ‘utext’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      Py_UNICODE  *utext;
+                   ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:820:8: warning: ‘text’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      char* text;
+            ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c: In function ‘gstate__stringPath’:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:1094:6: warning: ‘utext’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+        c = utext[i];
+          ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:1104:11: warning: ‘text’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       c = text[i]&0xff;
+               ^
+    In file included from /usr/include/python3.4m/Python.h:85:0,
+                     from /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:1:
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c: In function ‘gstate_getattr’:
+    /usr/include/python3.4m/tupleobject.h:62:73: warning: ‘e’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     #define PyTuple_SET_ITEM(op, i, v) (((PyTupleObject *)(op))->ob_item[i] = v)
+                                                                             ^
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.c:1002:12: note: ‘e’ was declared here
+      PyObject *e, *P;
+                ^
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DRENDERPM_FT -DLIBART_COMPILATION -DLIBART_VERSION="2.3.21" -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM -I/usr/include/libart-2.0/libart_lgpl -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1 -I/usr/include/freetype2 -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-parset1.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-parset1.o
+    /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-parset1.c:710:1: warning: ‘print_value_deep’ defined but not used [-Wunused-function]
+     print_value_deep (Gt1PSContext *psc, Gt1Value *val, int nest)
+     ^
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DRENDERPM_FT -DLIBART_COMPILATION -DLIBART_VERSION="2.3.21" -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM -I/usr/include/libart-2.0/libart_lgpl -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1 -I/usr/include/freetype2 -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-dict.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-dict.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DRENDERPM_FT -DLIBART_COMPILATION -DLIBART_VERSION="2.3.21" -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM -I/usr/include/libart-2.0/libart_lgpl -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1 -I/usr/include/freetype2 -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-namecontext.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-namecontext.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DRENDERPM_FT -DLIBART_COMPILATION -DLIBART_VERSION="2.3.21" -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM -I/usr/include/libart-2.0/libart_lgpl -I/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1 -I/usr/include/freetype2 -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c /tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-region.c -o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-region.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/_renderPM.o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-parset1.o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-dict.o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-namecontext.o build/temp.linux-x86_64-3.4/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM/gt1/gt1-region.o -L/usr/local/lib -L/home/alexander/rzl/pretix/src/env/lib -lfreetype -lart_lgpl_2 -o build/lib.linux-x86_64-3.4/reportlab/graphics/_renderPM.cpython-34m.so
+    
+    
+    ########## SUMMARY INFO #########
+    ################################################
+    #Attempting install of _rl_accel & pyHnj
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/rl_accel'
+    ################################################
+    ################################################
+    #Attempting install of _renderPM
+    #extensions from '/tmp/pip-build-q547one9/reportlab/src/rl_addons/renderPM'
+    will use installed libart 2.3.21
+    # installing with freetype version 21
+    ################################################
+    Standard T1 font curves already downloaded
+  Running setup.py develop for PyPDF2
+    
+    Creating /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/PyPDF2.egg-link (link to .)
+    Adding PyPDF2 1.24 to easy-install.pth file
+    
+    Installed /home/alexander/rzl/pretix/src/env/src/pypdf2
+  Running setup.py install for html5lib
+    
+  Running setup.py install for slimit
+    Skipping implicit fixer: buffer
+    Skipping implicit fixer: idioms
+    Skipping implicit fixer: set_literal
+    Skipping implicit fixer: ws_comma
+    
+    Installing slimit script to /home/alexander/rzl/pretix/src/env/bin
+  Running setup.py install for lxml
+    Building lxml version 3.4.4.
+    Building without Cython.
+    Using build configuration of libxslt 1.1.28
+    building 'lxml.etree' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/libxml2 -I/tmp/pip-build-q547one9/lxml/src/lxml/includes -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c src/lxml/lxml.etree.c -o build/temp.linux-x86_64-3.4/src/lxml/lxml.etree.o -w
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/src/lxml/lxml.etree.o -lxslt -lexslt -lxml2 -lz -lm -o build/lib.linux-x86_64-3.4/lxml/etree.cpython-34m.so
+    building 'lxml.objectify' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/libxml2 -I/tmp/pip-build-q547one9/lxml/src/lxml/includes -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c src/lxml/lxml.objectify.c -o build/temp.linux-x86_64-3.4/src/lxml/lxml.objectify.o -w
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/src/lxml/lxml.objectify.o -lxslt -lexslt -lxml2 -lz -lm -o build/lib.linux-x86_64-3.4/lxml/objectify.cpython-34m.so
+    /usr/lib/python3.4/distutils/dist.py:260: UserWarning: Unknown distribution option: 'bugtrack_url'
+      warnings.warn(msg)
+    
+  Running setup.py install for static3
+    
+    Installing static script to /home/alexander/rzl/pretix/src/env/bin
+  Running setup.py develop for dj-static
+    
+    Creating /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/dj-static.egg-link (link to .)
+    Adding dj-static 0.0.6 to easy-install.pth file
+    
+    Installed /home/alexander/rzl/pretix/src/env/src/dj-static
+  Running setup.py install for flufl.enum
+    
+    warning: no previously-included files found matching '.bzrignore'
+    no previously-included directories found matching 'build'
+    Skipping installation of /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/flufl/__init__.py (namespace package)
+    Installing /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/flufl.enum-4.0.1-nspkg.pth
+  Running setup.py install for coveralls
+    
+    Installing coveralls script to /home/alexander/rzl/pretix/src/env/bin
+  Running setup.py install for coverage
+    building 'coverage.tracer' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c coverage/tracer.c -o build/temp.linux-x86_64-3.4/coverage/tracer.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/coverage/tracer.o -o build/lib.linux-x86_64-3.4/coverage/tracer.cpython-34m.so
+    
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    Installing coverage-3.4 script to /home/alexander/rzl/pretix/src/env/bin
+    Installing coverage script to /home/alexander/rzl/pretix/src/env/bin
+    Installing coverage3 script to /home/alexander/rzl/pretix/src/env/bin
+  Running setup.py install for selenium
+    
+  Running setup.py install for paypalrestsdk
+    
+  Running setup.py install for stripe
+    Skipping implicit fixer: buffer
+    Skipping implicit fixer: idioms
+    Skipping implicit fixer: set_literal
+    Skipping implicit fixer: ws_comma
+    
+  Running setup.py install for chardet
+    
+    warning: no files found matching 'COPYING'
+    warning: no files found matching '*.html' under directory 'docs'
+    warning: no files found matching '*.css' under directory 'docs'
+    warning: no files found matching '*.png' under directory 'docs'
+    warning: no files found matching '*.gif' under directory 'docs'
+    Installing chardetect script to /home/alexander/rzl/pretix/src/env/bin
+  Running setup.py install for django-jquery-js
+    
+  Running setup.py install for pillow
+    
+    building 'PIL._imaging' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _imaging.c -o build/temp.linux-x86_64-3.4/_imaging.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Resample.c -o build/temp.linux-x86_64-3.4/libImaging/Resample.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Bands.c -o build/temp.linux-x86_64-3.4/libImaging/Bands.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/BitDecode.c -o build/temp.linux-x86_64-3.4/libImaging/BitDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Blend.c -o build/temp.linux-x86_64-3.4/libImaging/Blend.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Chops.c -o build/temp.linux-x86_64-3.4/libImaging/Chops.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Convert.c -o build/temp.linux-x86_64-3.4/libImaging/Convert.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c decode.c -o build/temp.linux-x86_64-3.4/decode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c encode.c -o build/temp.linux-x86_64-3.4/encode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c map.c -o build/temp.linux-x86_64-3.4/map.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/ConvertYCbCr.c -o build/temp.linux-x86_64-3.4/libImaging/ConvertYCbCr.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Copy.c -o build/temp.linux-x86_64-3.4/libImaging/Copy.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c display.c -o build/temp.linux-x86_64-3.4/display.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Crc32.c -o build/temp.linux-x86_64-3.4/libImaging/Crc32.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c outline.c -o build/temp.linux-x86_64-3.4/outline.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c path.c -o build/temp.linux-x86_64-3.4/path.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Crop.c -o build/temp.linux-x86_64-3.4/libImaging/Crop.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Dib.c -o build/temp.linux-x86_64-3.4/libImaging/Dib.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Draw.c -o build/temp.linux-x86_64-3.4/libImaging/Draw.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Access.c -o build/temp.linux-x86_64-3.4/libImaging/Access.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/AlphaComposite.c -o build/temp.linux-x86_64-3.4/libImaging/AlphaComposite.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Geometry.c -o build/temp.linux-x86_64-3.4/libImaging/Geometry.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Effects.c -o build/temp.linux-x86_64-3.4/libImaging/Effects.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/EpsEncode.c -o build/temp.linux-x86_64-3.4/libImaging/EpsEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/File.c -o build/temp.linux-x86_64-3.4/libImaging/File.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/GetBBox.c -o build/temp.linux-x86_64-3.4/libImaging/GetBBox.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Fill.c -o build/temp.linux-x86_64-3.4/libImaging/Fill.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/GifDecode.c -o build/temp.linux-x86_64-3.4/libImaging/GifDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Filter.c -o build/temp.linux-x86_64-3.4/libImaging/Filter.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/GifEncode.c -o build/temp.linux-x86_64-3.4/libImaging/GifEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/FliDecode.c -o build/temp.linux-x86_64-3.4/libImaging/FliDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/HexDecode.c -o build/temp.linux-x86_64-3.4/libImaging/HexDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Matrix.c -o build/temp.linux-x86_64-3.4/libImaging/Matrix.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Histo.c -o build/temp.linux-x86_64-3.4/libImaging/Histo.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/JpegDecode.c -o build/temp.linux-x86_64-3.4/libImaging/JpegDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/ModeFilter.c -o build/temp.linux-x86_64-3.4/libImaging/ModeFilter.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/MspDecode.c -o build/temp.linux-x86_64-3.4/libImaging/MspDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/JpegEncode.c -o build/temp.linux-x86_64-3.4/libImaging/JpegEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Negative.c -o build/temp.linux-x86_64-3.4/libImaging/Negative.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/LzwDecode.c -o build/temp.linux-x86_64-3.4/libImaging/LzwDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Offset.c -o build/temp.linux-x86_64-3.4/libImaging/Offset.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Quant.c -o build/temp.linux-x86_64-3.4/libImaging/Quant.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Pack.c -o build/temp.linux-x86_64-3.4/libImaging/Pack.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/PackDecode.c -o build/temp.linux-x86_64-3.4/libImaging/PackDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Palette.c -o build/temp.linux-x86_64-3.4/libImaging/Palette.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Paste.c -o build/temp.linux-x86_64-3.4/libImaging/Paste.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/QuantOctree.c -o build/temp.linux-x86_64-3.4/libImaging/QuantOctree.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/QuantHash.c -o build/temp.linux-x86_64-3.4/libImaging/QuantHash.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/RawDecode.c -o build/temp.linux-x86_64-3.4/libImaging/RawDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/RawEncode.c -o build/temp.linux-x86_64-3.4/libImaging/RawEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/QuantHeap.c -o build/temp.linux-x86_64-3.4/libImaging/QuantHeap.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Storage.c -o build/temp.linux-x86_64-3.4/libImaging/Storage.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/PcdDecode.c -o build/temp.linux-x86_64-3.4/libImaging/PcdDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/PcxDecode.c -o build/temp.linux-x86_64-3.4/libImaging/PcxDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/SunRleDecode.c -o build/temp.linux-x86_64-3.4/libImaging/SunRleDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/PcxEncode.c -o build/temp.linux-x86_64-3.4/libImaging/PcxEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/TgaRleDecode.c -o build/temp.linux-x86_64-3.4/libImaging/TgaRleDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Unpack.c -o build/temp.linux-x86_64-3.4/libImaging/Unpack.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Point.c -o build/temp.linux-x86_64-3.4/libImaging/Point.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/RankFilter.c -o build/temp.linux-x86_64-3.4/libImaging/RankFilter.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/XbmEncode.c -o build/temp.linux-x86_64-3.4/libImaging/XbmEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/ZipDecode.c -o build/temp.linux-x86_64-3.4/libImaging/ZipDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/UnpackYCC.c -o build/temp.linux-x86_64-3.4/libImaging/UnpackYCC.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/ZipEncode.c -o build/temp.linux-x86_64-3.4/libImaging/ZipEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/UnsharpMask.c -o build/temp.linux-x86_64-3.4/libImaging/UnsharpMask.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/XbmDecode.c -o build/temp.linux-x86_64-3.4/libImaging/XbmDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/TiffDecode.c -o build/temp.linux-x86_64-3.4/libImaging/TiffDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Incremental.c -o build/temp.linux-x86_64-3.4/libImaging/Incremental.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Jpeg2KDecode.c -o build/temp.linux-x86_64-3.4/libImaging/Jpeg2KDecode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/Jpeg2KEncode.c -o build/temp.linux-x86_64-3.4/libImaging/Jpeg2KEncode.o
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_LIBJPEG -DHAVE_LIBZ -DHAVE_LIBTIFF -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c libImaging/BoxBlur.c -o build/temp.linux-x86_64-3.4/libImaging/BoxBlur.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_imaging.o build/temp.linux-x86_64-3.4/decode.o build/temp.linux-x86_64-3.4/encode.o build/temp.linux-x86_64-3.4/map.o build/temp.linux-x86_64-3.4/display.o build/temp.linux-x86_64-3.4/outline.o build/temp.linux-x86_64-3.4/path.o build/temp.linux-x86_64-3.4/libImaging/Access.o build/temp.linux-x86_64-3.4/libImaging/AlphaComposite.o build/temp.linux-x86_64-3.4/libImaging/Resample.o build/temp.linux-x86_64-3.4/libImaging/Bands.o build/temp.linux-x86_64-3.4/libImaging/BitDecode.o build/temp.linux-x86_64-3.4/libImaging/Blend.o build/temp.linux-x86_64-3.4/libImaging/Chops.o build/temp.linux-x86_64-3.4/libImaging/Convert.o build/temp.linux-x86_64-3.4/libImaging/ConvertYCbCr.o build/temp.linux-x86_64-3.4/libImaging/Copy.o build/temp.linux-x86_64-3.4/libImaging/Crc32.o build/temp.linux-x86_64-3.4/libImaging/Crop.o build/temp.linux-x86_64-3.4/libImaging/Dib.o build/temp.linux-x86_64-3.4/libImaging/Draw.o build/temp.linux-x86_64-3.4/libImaging/Effects.o build/temp.linux-x86_64-3.4/libImaging/EpsEncode.o build/temp.linux-x86_64-3.4/libImaging/File.o build/temp.linux-x86_64-3.4/libImaging/Fill.o build/temp.linux-x86_64-3.4/libImaging/Filter.o build/temp.linux-x86_64-3.4/libImaging/FliDecode.o build/temp.linux-x86_64-3.4/libImaging/Geometry.o build/temp.linux-x86_64-3.4/libImaging/GetBBox.o build/temp.linux-x86_64-3.4/libImaging/GifDecode.o build/temp.linux-x86_64-3.4/libImaging/GifEncode.o build/temp.linux-x86_64-3.4/libImaging/HexDecode.o build/temp.linux-x86_64-3.4/libImaging/Histo.o build/temp.linux-x86_64-3.4/libImaging/JpegDecode.o build/temp.linux-x86_64-3.4/libImaging/JpegEncode.o build/temp.linux-x86_64-3.4/libImaging/LzwDecode.o build/temp.linux-x86_64-3.4/libImaging/Matrix.o build/temp.linux-x86_64-3.4/libImaging/ModeFilter.o build/temp.linux-x86_64-3.4/libImaging/MspDecode.o build/temp.linux-x86_64-3.4/libImaging/Negative.o build/temp.linux-x86_64-3.4/libImaging/Offset.o build/temp.linux-x86_64-3.4/libImaging/Pack.o build/temp.linux-x86_64-3.4/libImaging/PackDecode.o build/temp.linux-x86_64-3.4/libImaging/Palette.o build/temp.linux-x86_64-3.4/libImaging/Paste.o build/temp.linux-x86_64-3.4/libImaging/Quant.o build/temp.linux-x86_64-3.4/libImaging/QuantOctree.o build/temp.linux-x86_64-3.4/libImaging/QuantHash.o build/temp.linux-x86_64-3.4/libImaging/QuantHeap.o build/temp.linux-x86_64-3.4/libImaging/PcdDecode.o build/temp.linux-x86_64-3.4/libImaging/PcxDecode.o build/temp.linux-x86_64-3.4/libImaging/PcxEncode.o build/temp.linux-x86_64-3.4/libImaging/Point.o build/temp.linux-x86_64-3.4/libImaging/RankFilter.o build/temp.linux-x86_64-3.4/libImaging/RawDecode.o build/temp.linux-x86_64-3.4/libImaging/RawEncode.o build/temp.linux-x86_64-3.4/libImaging/Storage.o build/temp.linux-x86_64-3.4/libImaging/SunRleDecode.o build/temp.linux-x86_64-3.4/libImaging/TgaRleDecode.o build/temp.linux-x86_64-3.4/libImaging/Unpack.o build/temp.linux-x86_64-3.4/libImaging/UnpackYCC.o build/temp.linux-x86_64-3.4/libImaging/UnsharpMask.o build/temp.linux-x86_64-3.4/libImaging/XbmDecode.o build/temp.linux-x86_64-3.4/libImaging/XbmEncode.o build/temp.linux-x86_64-3.4/libImaging/ZipDecode.o build/temp.linux-x86_64-3.4/libImaging/ZipEncode.o build/temp.linux-x86_64-3.4/libImaging/TiffDecode.o build/temp.linux-x86_64-3.4/libImaging/Incremental.o build/temp.linux-x86_64-3.4/libImaging/Jpeg2KDecode.o build/temp.linux-x86_64-3.4/libImaging/Jpeg2KEncode.o build/temp.linux-x86_64-3.4/libImaging/BoxBlur.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -ljpeg -lz -ltiff -o build/lib.linux-x86_64-3.4/PIL/_imaging.cpython-34m.so
+    building 'PIL._imagingft' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _imagingft.c -o build/temp.linux-x86_64-3.4/_imagingft.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_imagingft.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -lfreetype -o build/lib.linux-x86_64-3.4/PIL/_imagingft.cpython-34m.so
+    building 'PIL._imagingcms' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _imagingcms.c -o build/temp.linux-x86_64-3.4/_imagingcms.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_imagingcms.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -llcms2 -o build/lib.linux-x86_64-3.4/PIL/_imagingcms.cpython-34m.so
+    building 'PIL._webp' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_WEBPMUX -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _webp.c -o build/temp.linux-x86_64-3.4/_webp.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_webp.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -lwebp -lwebpmux -lwebpdemux -o build/lib.linux-x86_64-3.4/PIL/_webp.cpython-34m.so
+    building 'PIL._imagingmath' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _imagingmath.c -o build/temp.linux-x86_64-3.4/_imagingmath.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_imagingmath.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/PIL/_imagingmath.cpython-34m.so
+    building 'PIL._imagingmorph' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/usr/include/freetype2 -I/tmp/pip-build-q547one9/pillow/libImaging -I/home/alexander/rzl/pretix/src/env/include -I/usr/local/include -I/usr/include -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -I/usr/include/x86_64-linux-gnu -c _imagingmorph.c -o build/temp.linux-x86_64-3.4/_imagingmorph.o
+    Building using 2 processes
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/_imagingmorph.o -L/home/alexander/rzl/pretix/src/env/lib -L/usr/local/lib -o build/lib.linux-x86_64-3.4/PIL/_imagingmorph.cpython-34m.so
+    --------------------------------------------------------------------
+    PIL SETUP SUMMARY
+    --------------------------------------------------------------------
+    version      Pillow 2.9.0
+    platform     linux 3.4.2 (default, Oct  8 2014, 10:45:20)
+                 [GCC 4.9.1]
+    --------------------------------------------------------------------
+    *** TKINTER support not available
+    --- JPEG support available
+    *** OPENJPEG (JPEG2000) support not available
+    --- ZLIB (PNG/ZIP) support available
+    --- LIBTIFF support available
+    --- FREETYPE2 support available
+    --- LITTLECMS2 support available
+    --- WEBP support available
+    --- WEBPMUX support available
+    --------------------------------------------------------------------
+    To add a missing option, make sure you have the required
+    library, and set the corresponding ROOT variable in the
+    setup.py script.
+    
+    To check the build, run the selftest.py script.
+    
+    changing mode of build/scripts-3.4/pildriver.py from 644 to 755
+    changing mode of build/scripts-3.4/pilfont.py from 644 to 755
+    changing mode of build/scripts-3.4/pilprint.py from 644 to 755
+    changing mode of build/scripts-3.4/pilfile.py from 644 to 755
+    changing mode of build/scripts-3.4/pilconvert.py from 644 to 755
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/pildriver.py to 755
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/pilfont.py to 755
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/pilprint.py to 755
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/pilfile.py to 755
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/pilconvert.py to 755
+  Running setup.py install for ply
+    
+  Running setup.py install for sqlparse
+    Fixing build/lib/sqlparse/tokens.py build/lib/sqlparse/sql.py build/lib/sqlparse/pipeline.py build/lib/sqlparse/__init__.py build/lib/sqlparse/filters.py build/lib/sqlparse/lexer.py build/lib/sqlparse/exceptions.py build/lib/sqlparse/functions.py build/lib/sqlparse/utils.py build/lib/sqlparse/keywords.py build/lib/sqlparse/formatter.py build/lib/sqlparse/engine/filter.py build/lib/sqlparse/engine/grouping.py build/lib/sqlparse/engine/__init__.py
+    Skipping implicit fixer: buffer
+    Skipping implicit fixer: idioms
+    Skipping implicit fixer: set_literal
+    Skipping implicit fixer: ws_comma
+    Fixing build/lib/sqlparse/tokens.py build/lib/sqlparse/sql.py build/lib/sqlparse/pipeline.py build/lib/sqlparse/__init__.py build/lib/sqlparse/filters.py build/lib/sqlparse/lexer.py build/lib/sqlparse/exceptions.py build/lib/sqlparse/functions.py build/lib/sqlparse/utils.py build/lib/sqlparse/keywords.py build/lib/sqlparse/formatter.py build/lib/sqlparse/engine/filter.py build/lib/sqlparse/engine/grouping.py build/lib/sqlparse/engine/__init__.py
+    Skipping implicit fixer: buffer
+    Skipping implicit fixer: idioms
+    Skipping implicit fixer: set_literal
+    Skipping implicit fixer: ws_comma
+    changing mode of build/scripts-3.4/sqlformat from 644 to 755
+    
+    changing mode of /home/alexander/rzl/pretix/src/env/bin/sqlformat to 755
+  Running setup.py install for PyYAML
+    checking if libyaml is compilable
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c build/temp.linux-x86_64-3.4/check_libyaml.c -o build/temp.linux-x86_64-3.4/check_libyaml.o
+    build/temp.linux-x86_64-3.4/check_libyaml.c:2:18: fatal error: yaml.h: No such file or directory
+     #include <yaml.h>
+                      ^
+    compilation terminated.
+    
+    libyaml is not found or a compiler error: forcing --without-libyaml
+    (if libyaml is installed correctly, you may need to
+     specify the option --include-dirs or uncomment and
+     modify the parameter include_dirs in setup.cfg)
+    
+  Running setup.py install for docopt
+    
+  Running setup.py install for cryptography
+    
+    Installed /tmp/pip-build-q547one9/cryptography/cffi-1.1.2-py3.4-linux-x86_64.egg
+    Searching for pyasn1
+    Reading https://pypi.python.org/simple/pyasn1/
+    Best match: pyasn1 0.1.8
+    Downloading https://pypi.python.org/packages/3.4/p/pyasn1/pyasn1-0.1.8-py3.4.egg#md5=6b0fa78788b2ca5ee420063b87e02f67
+    Processing pyasn1-0.1.8-py3.4.egg
+    Moving pyasn1-0.1.8-py3.4.egg to /tmp/pip-build-q547one9/cryptography
+    
+    Installed /tmp/pip-build-q547one9/cryptography/pyasn1-0.1.8-py3.4.egg
+    Searching for idna
+    Reading https://pypi.python.org/simple/idna/
+    Best match: idna 2.0
+    Downloading https://pypi.python.org/packages/source/i/idna/idna-2.0.tar.gz#md5=bd17a9d15e755375f48a62c13b25b801
+    Processing idna-2.0.tar.gz
+    Writing /tmp/easy_install-vbbknbed/idna-2.0/setup.cfg
+    Running idna-2.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-vbbknbed/idna-2.0/egg-dist-tmp-28wpvgna
+    warning: no previously-included files matching '*.pyc' found under directory 'tools'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /tmp/pip-build-q547one9/cryptography/idna-2.0-py3.4.egg
+    Searching for pycparser
+    Reading https://pypi.python.org/simple/pycparser/
+    Best match: pycparser 2.14
+    Downloading https://pypi.python.org/packages/source/p/pycparser/pycparser-2.14.tar.gz#md5=a2bc8d28c923b4fe2b2c3b4b51a4f935
+    Processing pycparser-2.14.tar.gz
+    Writing /tmp/easy_install-_646pz93/pycparser-2.14/setup.cfg
+    Running pycparser-2.14/setup.py -q bdist_egg --dist-dir /tmp/easy_install-_646pz93/pycparser-2.14/egg-dist-tmp-g48sc9v4
+    warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+    warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+    warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+    warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /tmp/pip-build-q547one9/cryptography/pycparser-2.14-py3.4.egg
+    
+    no previously-included directories found matching 'docs/_build'
+    warning: no previously-included files matching '*' found under directory 'vectors'
+    building '_Cryptography_cffi_c6806e2axd5c405b7' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_c6806e2axd5c405b7.c -o build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_c6806e2axd5c405b7.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_c6806e2axd5c405b7.o -lssl -lcrypto -o build/lib.linux-x86_64-3.4/cryptography/_Cryptography_cffi_c6806e2axd5c405b7.cpython-34m.so
+    building '_Cryptography_cffi_a8febd48xffc7b1ce' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_a8febd48xffc7b1ce.c -o build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_a8febd48xffc7b1ce.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_a8febd48xffc7b1ce.o -o build/lib.linux-x86_64-3.4/cryptography/_Cryptography_cffi_a8febd48xffc7b1ce.cpython-34m.so
+    building '_Cryptography_cffi_b03f9c7x62b488b1' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_b03f9c7x62b488b1.c -o build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_b03f9c7x62b488b1.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/src/cryptography/hazmat/bindings/__pycache__/_Cryptography_cffi_b03f9c7x62b488b1.o -o build/lib.linux-x86_64-3.4/cryptography/_Cryptography_cffi_b03f9c7x62b488b1.cpython-34m.so
+  Running setup.py install for pyasn1
+    
+  Running setup.py install for cffi
+    building '_cffi_backend' extension
+    x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 -fPIC -DUSE__THREAD -I/home/alexander/rzl/pretix/src/env/include -I/usr/include/python3.4m -c c/_cffi_backend.c -o build/temp.linux-x86_64-3.4/c/_cffi_backend.o
+    x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.4/c/_cffi_backend.o -lffi -o build/lib.linux-x86_64-3.4/_cffi_backend.cpython-34m.so
+    
+  Running setup.py install for pycparser
+    
+    warning: no previously-included files matching 'yacctab.*' found under directory 'tests'
+    warning: no previously-included files matching 'lextab.*' found under directory 'tests'
+    warning: no previously-included files matching 'yacctab.*' found under directory 'examples'
+    warning: no previously-included files matching 'lextab.*' found under directory 'examples'
+    Build the lexing/parsing tables
+Successfully installed Django python-dateutil pytz django-bootstrap3 django-formset-js CleanerVersion django-compressor reportlab PyPDF2 BeautifulSoup4 html5lib slimit lxml static3 dj-static flufl.enum django-debug-toolbar pyflakes pep8 pep8-naming flake8 coveralls coverage selenium pytest pytest-django isort paypalrestsdk stripe chardet six django-jquery-js django-appconf pillow ply sqlparse mccabe PyYAML docopt requests py pyopenssl cryptography idna pyasn1 cffi pycparser
+Cleaning up...
+

@@ -1,0 +1,8 @@
+(env) alexander@toothless:~/rzl/pretix/src$ python make_testdata.py
+WARNING 2015-07-20 14:45:09,752 py.warnings __init__ /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1474: RuntimeWarning: DateTimeField Event.date_from received a naive datetime (2015-09-04 17:00:00) while time zone support is active.
+  RuntimeWarning)
+
+WARNING 2015-07-20 14:45:09,753 py.warnings __init__ /home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1474: RuntimeWarning: DateTimeField Event.date_to received a naive datetime (2015-09-06 17:00:00) while time zone support is active.
+  RuntimeWarning)
+
+
