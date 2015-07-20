@@ -1,0 +1,161 @@
+ERROR 2015-07-20 08:41:53,344 django.request base Internal Server Error: /mrmcd/2015/
+Traceback (most recent call last):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 149, in render
+    return self.render_compressed(context, self.kind, self.mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 108, in render_compressed
+    rendered_output = self.render_output(compressor, mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 121, in render_output
+    return compressor.output(mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 51, in output
+    ret.append(subnode.output(*args, **kwargs))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 53, in output
+    return super(CssCompressor, self).output(*args, **kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 291, in output
+    output = '\n'.join(self.filter_input(forced))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 230, in filter_input
+    for hunk in self.hunks(forced):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 206, in hunks
+    precompiled, value = self.precompile(value, **options)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 270, in precompile
+    return True, filter.input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/pretix/helpers/lessabsolutefilter.py", line 10, in input
+    content = super(LessFilter, self).input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/filters/base.py", line 197, in input
+    raise FilterError(err)
+compressor.exceptions.FilterError: FileError: '../../bootstrap/less/bootstrap.less' wasn't found in /home/alexander/rzl/pretix/src/pretix/presale/static/pretixpresale/less/main.less on line 1, column 1:
+1 @import "../../bootstrap/less/bootstrap.less";
+2 @import "../../fontawesome/less/font-awesome.less";
+
+
+Internal Server Error: /mrmcd/2015/
+Traceback (most recent call last):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 149, in render
+    return self.render_compressed(context, self.kind, self.mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 108, in render_compressed
+    rendered_output = self.render_output(compressor, mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 121, in render_output
+    return compressor.output(mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 51, in output
+    ret.append(subnode.output(*args, **kwargs))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 53, in output
+    return super(CssCompressor, self).output(*args, **kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 291, in output
+    output = '\n'.join(self.filter_input(forced))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 230, in filter_input
+    for hunk in self.hunks(forced):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 206, in hunks
+    precompiled, value = self.precompile(value, **options)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 270, in precompile
+    return True, filter.input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/pretix/helpers/lessabsolutefilter.py", line 10, in input
+    content = super(LessFilter, self).input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/filters/base.py", line 197, in input
+    raise FilterError(err)
+compressor.exceptions.FilterError: FileError: '../../bootstrap/less/bootstrap.less' wasn't found in /home/alexander/rzl/pretix/src/pretix/presale/static/pretixpresale/less/main.less on line 1, column 1:
+1 @import "../../bootstrap/less/bootstrap.less";
+2 @import "../../fontawesome/less/font-awesome.less";
+
+
+ERROR 2015-07-20 08:41:53,344 django.request base Internal Server Error: /mrmcd/2015/
+Traceback (most recent call last):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/core/handlers/base.py", line 164, in get_response
+    response = response.render()
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 158, in render
+    self.content = self.rendered_content
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/backends/django.py", line 74, in render
+    return self.template.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 209, in render
+    return self._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/loader_tags.py", line 135, in render
+    return compiled_parent._render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/test/utils.py", line 96, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/django/template/debug.py", line 79, in render_node
+    return node.render(context)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 149, in render
+    return self.render_compressed(context, self.kind, self.mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 108, in render_compressed
+    rendered_output = self.render_output(compressor, mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/templatetags/compress.py", line 121, in render_output
+    return compressor.output(mode, forced=forced)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 51, in output
+    ret.append(subnode.output(*args, **kwargs))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/css.py", line 53, in output
+    return super(CssCompressor, self).output(*args, **kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 291, in output
+    output = '\n'.join(self.filter_input(forced))
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 230, in filter_input
+    for hunk in self.hunks(forced):
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 206, in hunks
+    precompiled, value = self.precompile(value, **options)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/base.py", line 270, in precompile
+    return True, filter.input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/pretix/helpers/lessabsolutefilter.py", line 10, in input
+    content = super(LessFilter, self).input(**kwargs)
+  File "/home/alexander/rzl/pretix/src/env/lib/python3.4/site-packages/compressor/filters/base.py", line 197, in input
+    raise FilterError(err)
+compressor.exceptions.FilterError: FileError: '../../bootstrap/less/bootstrap.less' wasn't found in /home/alexander/rzl/pretix/src/pretix/presale/static/pretixpresale/less/main.less on line 1, column 1:
+1 @import "../../bootstrap/less/bootstrap.less";
+2 @import "../../fontawesome/less/font-awesome.less";
+
+
+[20/Jul/2015 08:41:54]"GET /mrmcd/2015/ HTTP/1.1" 500 194694
+
