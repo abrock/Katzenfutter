@@ -1,0 +1,81 @@
+alexander@toothless:~/rzl$ git clone --recursive https://github.com/pretix/pretix.git
+Cloning into 'pretix'...
+remote: Counting objects: 6696, done.
+remote: Total 6696 (delta 0), reused 0 (delta 0), pack-reused 6696
+Receiving objects: 100% (6696/6696), 1.68 MiB | 501.00 KiB/s, done.
+Resolving deltas: 100% (4513/4513), done.
+Checking connectivity... done.
+Submodule 'src/static/bootstrap' (https://github.com/twbs/bootstrap.git) registered for path 'src/static/bootstrap'
+Submodule 'src/static/fontawesome' (https://github.com/FortAwesome/Font-Awesome.git) registered for path 'src/static/fontawesome'
+Cloning into 'src/static/bootstrap'...
+remote: Counting objects: 73129, done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 73129 (delta 1), reused 0 (delta 0), pack-reused 73120
+Receiving objects: 100% (73129/73129), 85.84 MiB | 3.13 MiB/s, done.
+Resolving deltas: 100% (44536/44536), done.
+Checking connectivity... done.
+Submodule path 'src/static/bootstrap': checked out 'bcf7dd38b5ab180256e2e4fb5da0369551b3f082'
+Cloning into 'src/static/fontawesome'...
+remote: Counting objects: 34182, done.
+remote: Compressing objects: 100% (1287/1287), done.
+remote: Total 34182 (delta 1103), reused 0 (delta 0), pack-reused 32300
+Receiving objects: 100% (34182/34182), 19.73 MiB | 2.91 MiB/s, done.
+Resolving deltas: 100% (18369/18369), done.
+Checking connectivity... done.
+Submodule path 'src/static/fontawesome': checked out '41b9ed01103e6820c3cb043ba7ddab30ecd3f4c0'
+
+alexander@toothless:~/rzl$ pyvenv-3.4 env
+alexander@toothless:~/rzl$ source env/bin/activate
+(env) alexander@toothless:~/rzl$ cd pretix/src 
+(env) alexander@toothless:~/rzl/pretix/src$ 
+
+(env) alexander@toothless:~/rzl/pretix/src$ time pip install -qr requirements.txt
+
+real    3m47.913s
+user    3m11.860s
+sys 0m9.708s
+(env) alexander@toothless:~/rzl/pretix/src$ 
+
+(env) alexander@toothless:~/rzl/pretix/src$ time python manage.py migrate
+Operations to perform:
+  Synchronize unmigrated apps: paypal, messages, pretixcontrol, staticfiles, debug_toolbar, bootstrap3, banktransfer, stripe, ticketoutputpdf, sendmail, compressor, djangoformsetjs, pretixpresale
+  Apply all migrations: contenttypes, auth, timerestriction, easy_thumbnails, pretixbase, sessions
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+  Installing custom SQL...
+Running migrations:
+  Rendering model states... DONE
+  Applying contenttypes.0001_initial... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0001_initial... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying easy_thumbnails.0001_initial... OK
+  Applying easy_thumbnails.0002_thumbnaildimensions... OK
+  Applying pretixbase.0001_initial... OK
+  Applying pretixbase.0002_auto_20150524_1148... OK
+  Applying pretixbase.0003_auto_20150602_2232... OK
+  Applying pretixbase.0004_eventpermission_can_change_permissions... OK
+  Applying pretixbase.0005_item_picture... OK
+  Applying pretixbase.0006_auto_20150726_1420... OK
+  Applying pretixbase.0007_auto_20150726_1430... OK
+  Applying sessions.0001_initial... OK
+  Applying timerestriction.0001_initial... OK
+
+real    0m6.518s
+user    0m5.260s
+sys 0m0.116s
+(env) alexander@toothless:~/rzl/pretix/src$ 
+(env) alexander@toothless:~/rzl/pretix/src$ python make_testdata.py
+WARNING 2015-07-29 16:39:43,354 py.warnings __init__ /home/alexander/rzl/env/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1474: RuntimeWarning: DateTimeField Event.date_from received a naive datetime (2015-09-04 17:00:00) while time zone support is active.
+  RuntimeWarning)
+
+WARNING 2015-07-29 16:39:43,354 py.warnings __init__ /home/alexander/rzl/env/lib/python3.4/site-packages/django/db/models/fields/__init__.py:1474: RuntimeWarning: DateTimeField Event.date_to received a naive datetime (2015-09-06 17:00:00) while time zone support is active.
+  RuntimeWarning)
+
+(env) alexander@toothless:~/rzl/pretix/src$ 
+
